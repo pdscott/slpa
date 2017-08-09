@@ -1,5 +1,4 @@
-# slpa
-Implementation of Speaker-Listener Label Propagation Algorithm (SLPA)
+# Implementation of Speaker-Listener Label Propagation Algorithm (SLPA)
 
 Note: This is an implementation of the SLPA algorithm described in “Towards Linear Time Overlapping Community Detection in Social Networks” by Xie and Szymanski.
 
