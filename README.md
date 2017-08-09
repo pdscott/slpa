@@ -21,15 +21,15 @@ For help, type:
 ```python
 python slpa.py -h
 ```
-NOTE: The edglist reader automatically skips the first line of the file since many input
+NOTE: The edgelist reader automatically skips the first line of the file since many input
 graphs contain node and edge sums as the first line.
 
 Results Interpretation:
     Each identified community is printed as a set of nodes on a separate line in the specified output file.
 
 Sample input and output files:
-	test.txt - contains a nine node graph for testing
-	communities_test.txt - output file generated after running "python slpa.py 'edgelist.txt' 'communities.txt' 20 0.5"
+	edgelist.txt - contains a nine node graph for testing
+	communities.txt - output file generated after running "python slpa.py 'edgelist.txt' 'communities.txt' 20 0.5"
 	                     - the file contains two lines representing the two identified communities
 	                     - each line contains the nodes in that community
 
